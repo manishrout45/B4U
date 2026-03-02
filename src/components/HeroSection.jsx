@@ -88,7 +88,7 @@ export default function HeroSection() {
 
                 {/* Floating Badge */}
                 <div className="absolute right-[-10px] md:right-[-40px] top-[180px]">
-                  <div className="bg-[#4a6741] text-white px-4 py-2 rounded-2xl flex items-center gap-2 shadow-lg">
+                  <div className="bg-red-700 text-white px-4 py-2 rounded-2xl flex items-center gap-2 shadow-lg">
                     <div className="flex items-center">
                       {["B", "4", "U"].map((l, i) => (
                         <div key={i} className="avatar-ring">{l}</div>

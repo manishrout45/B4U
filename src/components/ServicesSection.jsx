@@ -169,7 +169,7 @@ export default function ServicesSection() {
         {/* Welcome */}
         <div className="text-center mb-1">
           <span
-            className="text-amber-700 text-3xl"
+            className="text-red-700 text-3xl"
             style={{
               fontFamily: "'Brush Script MT', cursive",
             }}
