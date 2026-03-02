@@ -36,7 +36,7 @@ export default function CraftingStyle() {
           {/* Right Image */}
           <div className="rounded-lg overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e"
+              src="https://img.freepik.com/premium-photo/female-hairdresser-making-hairstyle-redhead-woman-beauty-salon_776674-1132004.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
               alt="Professional hair styling service at B4U Unisex Salon"
               className="w-full h-full object-cover"
             />
@@ -49,7 +49,7 @@ export default function CraftingStyle() {
           {/* Bottom Left Image */}
           <div className="rounded-lg overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438"
+              src="https://img.freepik.com/premium-photo/hairdresser-with-scissors-cuts-woman-s-hair-hairdressing-salon-stylist-client-hairsalon-beauty-business-professional-service_266732-18626.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
               alt="Beard trimming and men's grooming service"
               className="w-full h-full object-cover"
             />

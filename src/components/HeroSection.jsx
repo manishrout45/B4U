@@ -75,7 +75,7 @@ export default function HeroSection() {
             <div className="relative flex justify-center order-1 lg:order-2">
               <div className="relative w-[260px] sm:w-[320px] md:w-[380px] lg:w-[420px]">
                 <img
-                  src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600&q=80"
+                  src="https://img.freepik.com/premium-photo/female-hairdresser-making-hairstyle-redhead-woman-beauty-salon_776674-1132164.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
                   alt="Professional hairstylist at B4U Unisex Salon"
                   className="w-full h-[400px] md:h-[520px] object-cover object-top rounded-t-[180px]"
                   style={{

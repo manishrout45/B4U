@@ -134,7 +134,7 @@ export default function HairSalonSection() {
               style={{ gridColumn: "1 / 3", boxShadow: "0 20px 60px rgba(0,0,0,0.5)" }}
             >
               <img
-                src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=700&q=80"
+                src="https://img.freepik.com/premium-photo/makeup-artist-hairdresser-prepare-bride-making-hairstyle-makeup-beauty-salon_141172-11094.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
                 alt="Hair styling and treatment services at B4U Unisex Salon"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
@@ -145,7 +145,7 @@ export default function HairSalonSection() {
               style={{ boxShadow: "0 20px 60px rgba(0,0,0,0.5)" }}
             >
               <img
-                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80"
+                src="https://img.freepik.com/free-photo/hairdresser-colored-hair-her-client-hair-salon_1157-27194.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
                 alt="Professional hair coloring and spa treatment"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
@@ -156,7 +156,7 @@ export default function HairSalonSection() {
               style={{ boxShadow: "0 20px 60px rgba(0,0,0,0.5)" }}
             >
               <img
-                src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=400&q=80"
+                src="https://img.freepik.com/premium-photo/woman-is-putting-make-up-front-model_981168-5098.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
                 alt="Bridal and party makeup services"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />

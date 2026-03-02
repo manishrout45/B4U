@@ -11,7 +11,7 @@ export default function AboutSection() {
           {/* Back Image */}
           <div className="absolute -bottom-12 left-28 w-72 md:w-80 h-80 bg-white shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=600&q=80"
+              src="https://img.freepik.com/premium-photo/woman-is-getting-her-hair-done-salon_740019-7583.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
               alt="Professional hair styling service at B4U Unisex Salon"
               className="w-full h-full object-cover"
             />
@@ -20,7 +20,7 @@ export default function AboutSection() {
           {/* Front Image */}
           <div className="relative w-72 md:w-80 h-80 bg-white shadow-xl border-4 border-white">
             <img
-              src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=600&q=80"
+              src="https://img.freepik.com/premium-photo/hair-cutting-professional-hairdresser-working-with-client-salon-closeup_495423-112236.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
               alt="Hair cutting and hair treatment services"
               className="w-full h-full object-cover"
             />

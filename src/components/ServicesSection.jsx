@@ -4,97 +4,97 @@ export default function ServicesSection() {
   const services = [
     // HAIR SERVICES
     {
-      src: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=800&q=80",
+      src: "https://img.freepik.com/premium-photo/hairdresser-with-scissors-cuts-woman-s-hair-hairdressing-salon-stylist-client-hairsalon-beauty-business-professional-service_266732-18626.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Hair Cutting (Ladies, Gents & Kids)",
     },
     {
-      src: "https://images.unsplash.com/photo-1621607512022-6aecc4fed814?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/handsome-man-cutting-beard-barber-salon_1303-20966.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Beard Trimming",
     },
     {
-      src: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/mid-section-barber-applying-cream-clients-beard_107420-94760.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Clean Shave",
     },
     {
-      src: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80",
+      src: "https://img.freepik.com/premium-photo/female-hairdresser-making-hairstyle-brunette-woman-beauty-salon_776674-1123234.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Hair Styling",
     },
     {
-      src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/woman-getting-treatment-hairdresser-shop_23-2149229759.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Hair Spa",
     },
     {
-      src: "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/beautician-protective-mask-doing-procedure-hair_7502-7509.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Hair Treatments",
     },
     {
-      src: "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&q=80",
+      src: "https://img.freepik.com/premium-photo/portrait-beautiful-young-woman-with-healthy-strong-hair-white-background_1339860-3083.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Keratin",
     },
     {
-      src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800&q=80",
+      src: "https://img.freepik.com/premium-photo/cosmetician-hands-with-working-tools-female-patient-face-rejuvenation-procedure-beautician-salon-doctor-woman-cosmetic-surgery-against-wrinkles-aging_266732-22165.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Botox Treatment",
     },
     {
-      src: "https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/bride-make-hair-with-dress_1150-11369.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Smoothening",
     },
     {
-      src: "https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/woman-getting-her-hair-done-beauty-salon_23-2149167405.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Nanoplastia",
     },
 
     // SKIN SERVICES
     {
-      src: "https://images.unsplash.com/photo-1552693673-1bf958298935?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/close-up-face-young-woman-relaxing-gentle_158595-4582.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Clean Up",
     },
     {
-      src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/cosmetologist-applying-mask-face-client-beauty-salon_1303-16770.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Facial",
     },
     {
-      src: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/young-woman-lying-cosmetologist-s-table-rejuvenation-procedure_343596-85.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Hydra Facial",
     },
     {
-      src: "https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/beautiful-young-girl-beauty-salon_1157-21117.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Waxing",
     },
     {
-      src: "https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/professional-woman-making-wax-another-woman-arm_1208-323.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Lipo Waxing",
     },
     {
-      src: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/woman-relaxing-spa_329181-13167.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Detan",
     },
     {
-      src: "https://images.unsplash.com/photo-1596704017254-9c9f09c3a9f7?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/young-woman-beauty-salon_23-2148895550.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Threading",
     },
 
     // MAKEUP SERVICES
     {
-      src: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&q=80",
+      src: "https://img.freepik.com/premium-photo/woman-is-putting-make-up-front-model_981168-5098.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Bridal Makeup",
     },
     {
-      src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/two-girls-are-doing-make-up-front-big-mirror_231208-3556.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Party Makeup",
     },
     {
-      src: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/front-view-hairstylist-cutting-client-s-hair_23-2148242834.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Groom Makeup",
     },
 
     // HAND & FOOT CARE
     {
-      src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/healthy-beautiful-manicure-manicurist_23-2148766558.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Manicure",
     },
     {
-      src: "https://images.unsplash.com/photo-1588776814546-ec7eaa3b4b88?w=800&q=80",
+      src: "https://img.freepik.com/free-photo/foot-washing-spa-before-treatment-spa-treatment-product-female-feet-hand-spa_1150-37704.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
       title: "Pedicure",
     },
   ];
