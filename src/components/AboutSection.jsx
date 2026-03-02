@@ -12,7 +12,7 @@ export default function AboutSection() {
           <div className="absolute -bottom-12 left-28 w-72 md:w-80 h-80 bg-white shadow-lg">
             <img
               src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=600&q=80"
-              alt="Salon Work"
+              alt="Professional hair styling service at B4U Unisex Salon"
               className="w-full h-full object-cover"
             />
           </div>
@@ -21,7 +21,7 @@ export default function AboutSection() {
           <div className="relative w-72 md:w-80 h-80 bg-white shadow-xl border-4 border-white">
             <img
               src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=600&q=80"
-              alt="Hair Styling"
+              alt="Hair cutting and hair treatment services"
               className="w-full h-full object-cover"
             />
           </div>
@@ -30,20 +30,43 @@ export default function AboutSection() {
         {/* Right Content Section */}
         <div>
           <h2 className="text-4xl md:text-5xl font-serif font-semibold text-gray-900 leading-tight mb-6">
-            We are more than a <br /> Hair salon
+            Best Unisex Salon for Hair, Skin & Makeup Services
           </h2>
 
+          <p className="text-gray-600 mb-6 leading-relaxed">
+            <span className="font-semibold text-gray-900">
+              B4U Unisex Salon
+            </span>{" "}
+            is a professional unisex salon offering premium 
+            <strong> hair, skin, and makeup services </strong>
+            for Ladies, Gents, and Kids. Our expert stylists and beauty 
+            professionals are dedicated to delivering modern styles, 
+            advanced treatments, and personalized grooming solutions.
+          </p>
+
+          <p className="text-gray-600 mb-6 leading-relaxed">
+            We specialize in <strong>hair cutting, beard trimming, clean shave, hair styling, 
+            hair spa, keratin treatment, botox treatment, smoothening, and nanoplastia</strong>. 
+            Our skin care services include <strong>facials, hydra facials, clean-ups, detan, 
+            waxing, lipo waxing, and threading</strong> to give you healthy, glowing skin.
+          </p>
+
+          <p className="text-gray-600 mb-6 leading-relaxed">
+            For special occasions, we provide professional 
+            <strong> bridal makeup, party makeup, and groom makeup services </strong>
+            to ensure you look flawless and confident. We also offer 
+            manicure and pedicure services for complete hand and foot care.
+          </p>
+
           <p className="text-gray-600 mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation.
-            <br /><br />
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            At B4U Unisex Salon, we focus on hygiene, premium products, 
+            and the latest beauty trends to provide the best salon 
+            experience. Book your appointment today and transform 
+            your look with trusted beauty experts.
           </p>
 
           <button className="bg-[#0b0f2a] text-white px-6 py-3 text-sm font-medium hover:bg-black transition duration-300">
-            Book Services
+            Book Your Appointment
           </button>
         </div>
 

@@ -95,16 +95,14 @@ export default function ContactUsSection() {
                 <div>
                   <p className="font-medium">Phone</p>
                   <p className="text-black/70 mt-1">
-                    +91 98765 43210
+                    +91 94384 00005
                   </p>
                 </div>
 
                 <div>
                   <p className="font-medium">Address</p>
                   <p className="text-black/70 mt-1">
-                    1st Floor, Near Magnum Wine Shop,<br />
-                    IRC Village, Nayapalli,<br />
-                    Bhubaneswar, Odisha – 751015
+                    Plot number- EB -848, Badagada brit colony, Bhubaneswar
                   </p>
                 </div>
 
@@ -117,12 +115,12 @@ export default function ContactUsSection() {
 
                 {/* SOCIAL ICONS */}
                 <div className="flex gap-4 pt-4">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.facebook.com/profile.php?id=61565173592416#" target="_blank" rel="noopener noreferrer">
                     <FaFacebookF className="cursor-pointer hover:opacity-60" />
                   </a>
 
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/b4u_unisex_salon"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

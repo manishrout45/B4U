@@ -2,9 +2,18 @@ import { useEffect, useRef, useState } from "react";
 
 export default function ServicesSection() {
   const services = [
+    // HAIR SERVICES
     {
-      src: "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&q=80",
-      title: "Hair Coloring",
+      src: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=800&q=80",
+      title: "Hair Cutting (Ladies, Gents & Kids)",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1621607512022-6aecc4fed814?w=800&q=80",
+      title: "Beard Trimming",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&q=80",
+      title: "Clean Shave",
     },
     {
       src: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80",
@@ -12,15 +21,81 @@ export default function ServicesSection() {
     },
     {
       src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80",
-      title: "Hair Treatment",
+      title: "Hair Spa",
     },
     {
-      src: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&q=80",
-      title: "Keratin Therapy",
+      src: "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?w=800&q=80",
+      title: "Hair Treatments",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&q=80",
+      title: "Keratin",
     },
     {
       src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800&q=80",
+      title: "Botox Treatment",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=800&q=80",
+      title: "Smoothening",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=800&q=80",
+      title: "Nanoplastia",
+    },
+
+    // SKIN SERVICES
+    {
+      src: "https://images.unsplash.com/photo-1552693673-1bf958298935?w=800&q=80",
+      title: "Clean Up",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80",
+      title: "Facial",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&q=80",
+      title: "Hydra Facial",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?w=800&q=80",
+      title: "Waxing",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?w=800&q=80",
+      title: "Lipo Waxing",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=800&q=80",
+      title: "Detan",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1596704017254-9c9f09c3a9f7?w=800&q=80",
+      title: "Threading",
+    },
+
+    // MAKEUP SERVICES
+    {
+      src: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&q=80",
       title: "Bridal Makeup",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+      title: "Party Makeup",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=800&q=80",
+      title: "Groom Makeup",
+    },
+
+    // HAND & FOOT CARE
+    {
+      src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80",
+      title: "Manicure",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1588776814546-ec7eaa3b4b88?w=800&q=80",
+      title: "Pedicure",
     },
   ];
 
@@ -76,7 +151,7 @@ export default function ServicesSection() {
         fontFamily: "'Trebuchet MS', sans-serif",
       }}
     >
-      {/* Decorative Background Swirl */}
+      {/* Decorative Background */}
       <div
         className="absolute inset-0 flex items-start justify-center pointer-events-none select-none opacity-10"
         aria-hidden="true"
@@ -87,23 +162,16 @@ export default function ServicesSection() {
             stroke="#b5945a"
             strokeWidth="1.5"
           />
-          <path
-            d="M380 30 C220 30, 80 140, 130 260 C180 370, 390 310, 510 210 C620 110, 720 210, 670 310"
-            stroke="#b5945a"
-            strokeWidth="0.8"
-          />
         </svg>
       </div>
 
-      <div className="max-w-5xl mx-auto relative z-10">
-        
-        {/* Script Welcome */}
+      <div className="max-w-6xl mx-auto relative z-10">
+        {/* Welcome */}
         <div className="text-center mb-1">
           <span
             className="text-amber-700 text-3xl"
             style={{
-              fontFamily: "'Brush Script MT', 'Segoe Script', cursive",
-              letterSpacing: "0.02em",
+              fontFamily: "'Brush Script MT', cursive",
             }}
           >
             Welcome
@@ -111,17 +179,14 @@ export default function ServicesSection() {
         </div>
 
         {/* Heading */}
-        <h2
-          className="text-center text-3xl md:text-4xl font-black tracking-widest text-gray-900 mb-4 uppercase"
-          style={{ fontFamily: "'Georgia', serif", letterSpacing: "0.18em" }}
-        >
-          Explore Our Services
+        <h2 className="text-center text-3xl md:text-4xl font-serif font-semibold tracking-widest text-gray-900 mb-4 uppercase">
+          Our Unisex Salon Services
         </h2>
 
         {/* Subtext */}
-        <p className="text-center text-gray-500 text-sm max-w-lg mx-auto mb-12 leading-relaxed">
-          Beauties! we allow enough time in your appointment for complete
-          in-depth consultation with your finished look.
+        <p className="text-center text-gray-600 text-sm max-w-xl mx-auto mb-12 leading-relaxed">
+          Premium Hair, Skin & Makeup services for Ladies, Gents & Kids.
+          Experience professional care tailored to enhance your natural beauty.
         </p>
 
         {/* Slider */}
@@ -142,30 +207,24 @@ export default function ServicesSection() {
                 style={{ width: `${100 / itemsToShow}%` }}
               >
                 <div className="relative h-[260px] rounded-xl overflow-hidden shadow-md group">
-                  
-                  {/* Image */}
                   <img
                     src={service.src}
                     alt={service.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
 
-                  {/* Bottom Dark Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
 
-                  {/* Title */}
                   <div className="absolute bottom-4 left-4 text-white">
                     <h3 className="text-lg md:text-xl font-semibold">
                       {service.title}
                     </h3>
                   </div>
-
                 </div>
               </div>
             ))}
           </div>
         </div>
-
       </div>
     </section>
   );

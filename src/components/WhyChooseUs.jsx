@@ -7,7 +7,7 @@ export default function WhyChooseUs() {
           <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6M12 9v6" />
         </svg>
       ),
-      title: "Customized Solutions for Every Hair Type",
+      title: "Personalized Hair, Skin & Grooming Services for Men & Women",
     },
     {
       icon: (
@@ -15,7 +15,7 @@ export default function WhyChooseUs() {
           <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1 1 .03 2.688-1.379 2.688H4.178c-1.408 0-2.38-1.688-1.379-2.688L4.2 15.3" />
         </svg>
       ),
-      title: "Professional-Grade Ingredients for All Products",
+      title: "Premium Products for Hair Treatments, Facials & Makeup",
     },
     {
       icon: (
@@ -23,7 +23,7 @@ export default function WhyChooseUs() {
           <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
         </svg>
       ),
-      title: "Cutting-Edge Technology and Formulas",
+      title: "Advanced Hair Technology – Keratin, Botox & Smoothening",
     },
   ];
 
@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
           className="text-center text-3xl font-bold text-gray-900 mb-10"
           style={{ fontFamily: "'Georgia', serif" }}
         >
-          Why Choose Us?
+          Why Choose B4U Unisex Salon?
         </h2>
 
         {/* Feature Cards Row */}
@@ -59,11 +59,10 @@ export default function WhyChooseUs() {
           <div className="lg:w-1/2 min-h-64 relative">
             <img
               src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=700&q=80"
-              alt="Expert stylists"
+              alt="Professional hair stylist providing keratin and hair treatment service"
               className="w-full h-full object-cover"
               style={{ minHeight: "320px" }}
             />
-            {/* subtle dark gradient at bottom */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
           </div>
 
@@ -73,23 +72,30 @@ export default function WhyChooseUs() {
               className="text-2xl font-bold text-gray-900 mb-4"
               style={{ fontFamily: "'Georgia', serif" }}
             >
-              Expert Stylists and Colorists
+              Trusted Experts in Hair, Skin & Bridal Makeup
             </h3>
+
             <p className="text-gray-500 text-sm leading-relaxed mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation.
+              At <strong>B4U Unisex Salon</strong>, our certified hair stylists, 
+              beauty therapists, and makeup artists deliver exceptional results 
+              with precision and creativity. We specialize in trendy haircuts, 
+              beard grooming, keratin treatment, hair botox, smoothening, 
+              hydra facials, waxing, threading, and professional bridal makeup services.
             </p>
+
             <p className="text-gray-500 text-sm leading-relaxed mb-8">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
+              Our focus on hygiene, premium-quality products, and the latest 
+              beauty techniques ensures a safe, relaxing, and luxurious salon 
+              experience for every client. Whether you need a complete makeover 
+              or regular grooming, we guarantee satisfaction and style.
             </p>
+
             <div>
               <button
                 className="bg-gray-900 text-white text-sm font-semibold px-7 py-3 rounded hover:bg-gray-700 transition-colors duration-300 tracking-wide"
                 style={{ letterSpacing: "0.05em" }}
               >
-                Book Services
+                Book Your Appointment
               </button>
             </div>
           </div>

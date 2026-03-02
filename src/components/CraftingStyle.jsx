@@ -7,7 +7,7 @@ export default function CraftingStyle() {
         
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-serif font-semibold text-gray-800 mb-12">
-          Crafting Confidence & Style
+          Premium Unisex Salon for Hair, Skin & Makeup Services
         </h2>
 
         {/* Top Grid */}
@@ -16,14 +16,20 @@ export default function CraftingStyle() {
           {/* Left Dark Card */}
           <div className="md:col-span-2 bg-[#2c2c2c] text-white p-8 rounded-lg flex flex-col justify-between">
             <p className="text-gray-300 leading-relaxed mb-6">
-              With a team of skilled stylists and beauty experts, we offer
-              personalized services that bring out your natural glow. From
-              refreshing haircuts to rejuvenating spa treatments, every detail
-              is designed to give you a luxurious and relaxing experience.
+              At <span className="font-semibold text-white">B4U Unisex Salon</span>, 
+              we provide professional <strong>hair cutting, beard styling, hair spa, 
+              keratin treatment, smoothening, botox treatment, and nanoplastia</strong> 
+              services for men and women. Our expert stylists focus on modern trends, 
+              premium products, and personalized grooming to give you a confident, 
+              stylish look.
+              <br /><br />
+              From <strong>hydra facials, clean-ups, waxing, detan, threading</strong> 
+              to <strong>bridal makeup and party makeup services</strong>, we ensure 
+              complete beauty and skin care solutions under one roof.
             </p>
 
             <button className="bg-[#c89b5e] text-white px-6 py-2 rounded-md w-fit hover:bg-[#b5894f] transition duration-300">
-              Learn More
+              Explore Our Services
             </button>
           </div>
 
@@ -31,7 +37,7 @@ export default function CraftingStyle() {
           <div className="rounded-lg overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e"
-              alt="Hair Styling"
+              alt="Professional hair styling service at B4U Unisex Salon"
               className="w-full h-full object-cover"
             />
           </div>
@@ -44,7 +50,7 @@ export default function CraftingStyle() {
           <div className="rounded-lg overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438"
-              alt="Beard Styling"
+              alt="Beard trimming and men's grooming service"
               className="w-full h-full object-cover"
             />
           </div>
@@ -55,21 +61,21 @@ export default function CraftingStyle() {
               <li className="flex items-start gap-3">
                 <span className="w-3 h-3 mt-2 bg-white rounded-full"></span>
                 <span>
-                  Expert stylists & therapists with years of experience
+                  Certified hair stylists & beauty therapists with professional expertise
                 </span>
               </li>
 
               <li className="flex items-start gap-3">
                 <span className="w-3 h-3 mt-2 bg-white rounded-full"></span>
                 <span>
-                  Modern techniques blended with timeless elegance
+                  Advanced hair treatments, skin care solutions & bridal makeup services
                 </span>
               </li>
 
               <li className="flex items-start gap-3">
                 <span className="w-3 h-3 mt-2 bg-white rounded-full"></span>
                 <span>
-                  A welcoming space built for comfort and self-care
+                  Hygienic, comfortable, and modern unisex salon environment
                 </span>
               </li>
             </ul>
@@ -79,7 +85,7 @@ export default function CraftingStyle() {
           <div className="rounded-lg overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f"
-              alt="Hair Treatment"
+              alt="Hair spa and keratin treatment service"
               className="w-full h-full object-cover"
             />
           </div>

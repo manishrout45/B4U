@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -8,28 +8,46 @@ export default function Footer() {
         
         {/* Column 1 - Logo & About */}
         <div>
-          <h2 className="text-2xl font-serif text-yellow-500 mb-4">
-            B4U Unisex Salon
-          </h2>
+          
+          {/* Logo Image */}
+          <img
+            src="/assets/images/Logo2.jpeg"   // 🔁 Replace with your actual logo path
+            alt="B4U Unisex Salon Logo"
+            className="h-14 mb-4"
+          />
+
           <p className="text-sm leading-relaxed mb-6">
-            Elevate your style with premium hair, skin, and grooming services.
-            Where beauty meets confidence and luxury.
+            B4U Unisex Salon provides professional hair cutting, keratin,
+            smoothening, hydra facial, bridal makeup, beard grooming,
+            and complete skin care services for men and women.
+            Experience premium beauty and grooming under one roof.
           </p>
 
           {/* Social Icons */}
           <div className="flex gap-3">
-            <div className="w-9 h-9 flex items-center justify-center rounded-full border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition">
+            
+            {/* Facebook */}
+            <a
+              href="https://www.facebook.com/profile.php?id=61565173592416"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="B4U Unisex Salon Facebook"
+              className="w-9 h-9 flex items-center justify-center rounded-full border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition"
+            >
               <Facebook size={16} />
-            </div>
-            <div className="w-9 h-9 flex items-center justify-center rounded-full border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition">
-              <Twitter size={16} />
-            </div>
-            <div className="w-9 h-9 flex items-center justify-center rounded-full border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition">
+            </a>
+
+            {/* Instagram */}
+            <a
+              href="https://www.instagram.com/b4u_unisex_salon"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="B4U Unisex Salon Instagram"
+              className="w-9 h-9 flex items-center justify-center rounded-full border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition"
+            >
               <Instagram size={16} />
-            </div>
-            <div className="w-9 h-9 flex items-center justify-center rounded-full border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition">
-              <Linkedin size={16} />
-            </div>
+            </a>
+
           </div>
         </div>
 
@@ -50,10 +68,10 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-5">Our Services</h3>
           <ul className="space-y-3 text-sm">
             <li className="hover:text-yellow-500 cursor-pointer transition">Hair Cut & Styling</li>
-            <li className="hover:text-yellow-500 cursor-pointer transition">Hair Coloring</li>
+            <li className="hover:text-yellow-500 cursor-pointer transition">Keratin & Smoothening</li>
             <li className="hover:text-yellow-500 cursor-pointer transition">Facial & Skin Care</li>
-            <li className="hover:text-yellow-500 cursor-pointer transition">Manicure & Pedicure</li>
-            <li className="hover:text-yellow-500 cursor-pointer transition">Bridal & Groom Packages</li>
+            <li className="hover:text-yellow-500 cursor-pointer transition">Hydra Facial</li>
+            <li className="hover:text-yellow-500 cursor-pointer transition">Bridal & Groom Makeup</li>
           </ul>
         </div>
 

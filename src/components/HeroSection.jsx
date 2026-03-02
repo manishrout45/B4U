@@ -67,7 +67,7 @@ export default function HeroSection() {
               </p>
 
               <button className="book-btn mt-6 text-white text-sm px-6 py-3 rounded-md">
-                Book a Appointment
+                Book an Appointment
               </button>
             </div>
 
@@ -76,7 +76,7 @@ export default function HeroSection() {
               <div className="relative w-[260px] sm:w-[320px] md:w-[380px] lg:w-[420px]">
                 <img
                   src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600&q=80"
-                  alt="Barber"
+                  alt="Professional hairstylist at B4U Unisex Salon"
                   className="w-full h-[400px] md:h-[520px] object-cover object-top rounded-t-[180px]"
                   style={{
                     maskImage:
@@ -90,13 +90,13 @@ export default function HeroSection() {
                 <div className="absolute right-[-10px] md:right-[-40px] top-[180px]">
                   <div className="bg-[#4a6741] text-white px-4 py-2 rounded-2xl flex items-center gap-2 shadow-lg">
                     <div className="flex items-center">
-                      {["A", "B", "C"].map((l, i) => (
+                      {["B", "4", "U"].map((l, i) => (
                         <div key={i} className="avatar-ring">{l}</div>
                       ))}
                     </div>
                     <div>
-                      <div className="text-sm font-semibold">34K+</div>
-                      <div className="text-xs opacity-80">Users</div>
+                      <div className="text-sm font-semibold">7+ Years</div>
+                      <div className="text-xs opacity-80">Experience</div>
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ export default function HeroSection() {
               <div className="w-[160px] h-[180px] rounded-2xl overflow-hidden shadow-xl">
                 <img
                   src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=400&q=80"
-                  alt="Salon"
+                  alt="Luxury salon interior"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -129,16 +129,15 @@ export default function HeroSection() {
           <div className="mt-14 flex justify-center lg:justify-start">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-md border border-white/60">
               <div className="flex items-baseline gap-1">
-                <span className="font-playfair text-3xl font-bold">27</span>
-                <span className="font-playfair text-2xl font-bold text-[#8B6914]">
-                  k
+                <span className="font-playfair text-3xl font-bold">5
+                  <span className="font-playfair text-2xl font-bold text-[#8B6914]"> k + </span>
                 </span>
                 <span className="ml-2 text-base font-medium">
-                  Happy Users
+                  Happy Clients
                 </span>
               </div>
               <p className="text-sm text-[#5a4f45] mt-1">
-                From hair to skin, our expert stylists.
+                Trusted for premium hair, skin, and grooming services.
               </p>
             </div>
           </div>
