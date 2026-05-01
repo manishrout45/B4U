@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   FaFacebookF,
   FaInstagram,
@@ -6,6 +6,33 @@ import {
 } from "react-icons/fa";
 
 export default function ContactUsSection() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleWhatsAppSend = () => {
+    const { name, email, message } = formData;
+
+    const text = `Hello B4U Unisex Salon,%0A%0A` +
+      `*New Appointment / Inquiry*%0A` +
+      `👤 Name: ${name}%0A` +
+      `📧 Email: ${email}%0A` +
+      `📝 Message: ${message}`;
+
+    const whatsappURL = `https://wa.me/919438400005?text=${text}`;
+
+    window.open(whatsappURL, "_blank");
+  };
+
   return (
     <section className="w-full bg-[#f5efe6] py-20">
       <div className="max-w-7xl mx-auto px-6">
@@ -24,14 +51,12 @@ export default function ContactUsSection() {
 
           {/* RIGHT CONTENT */}
           <div className="w-full">
-
-            {/* HEADING */}
             <h2 className="text-4xl md:text-5xl font-serif font-extrabold text-black mb-6">
               Contact Us
             </h2>
 
             <p className="text-black/70 mb-10 max-w-lg">
-              We would love to hear from you. Book your appointment today or 
+              We would love to hear from you. Book your appointment today or
               get in touch for premium hair, skin, and grooming services in Bhubaneswar.
             </p>
 
@@ -40,45 +65,53 @@ export default function ContactUsSection() {
               {/* FORM */}
               <div className="md:col-span-2 space-y-8">
 
-                {/* FULL NAME */}
                 <div>
                   <label className="block text-sm text-black mb-2">
                     Full Name
                   </label>
                   <input
                     type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
                     placeholder="Enter your full name"
                     className="w-full bg-transparent border-b border-black focus:outline-none py-2"
                   />
                 </div>
 
-                {/* EMAIL */}
                 <div>
                   <label className="block text-sm text-black mb-2">
                     E-mail
                   </label>
                   <input
                     type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
                     placeholder="Enter your email"
                     className="w-full bg-transparent border-b border-black focus:outline-none py-2"
                   />
                 </div>
 
-                {/* MESSAGE */}
                 <div>
                   <label className="block text-sm text-black mb-2">
                     Message
                   </label>
                   <textarea
                     rows="3"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
                     placeholder="Write your message or appointment request"
                     className="w-full bg-transparent border-b border-black focus:outline-none py-2 resize-none"
                   />
                 </div>
 
-                {/* BUTTON */}
-                <button className="mt-6 bg-[#8B6914] text-white px-10 py-3 rounded-full hover:bg-[#7a5c10] transition">
-                  Send Message
+                <button
+                  onClick={handleWhatsAppSend}
+                  className="mt-6 bg-[#8B6914] text-white px-10 py-3 rounded-full hover:bg-[#7a5c10] transition"
+                >
+                  Send on WhatsApp
                 </button>
               </div>
 
@@ -113,7 +146,6 @@ export default function ContactUsSection() {
                   </p>
                 </div>
 
-                {/* SOCIAL ICONS */}
                 <div className="flex gap-4 pt-4">
                   <a href="https://www.facebook.com/profile.php?id=61565173592416#" target="_blank" rel="noopener noreferrer">
                     <FaFacebookF className="cursor-pointer hover:opacity-60" />
@@ -133,7 +165,6 @@ export default function ContactUsSection() {
                 </div>
 
               </div>
-
             </div>
           </div>
 
